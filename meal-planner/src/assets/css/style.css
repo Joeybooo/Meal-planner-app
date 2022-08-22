@@ -32,6 +32,17 @@ nav ul li{
     width: 20vw;   
     height: 45vh;
 }
+/* -- TODAY section ---------- */
+#today-title{
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+
+}
+
+#go-to-search{
+    margin-top: 2vh;
+
+}
 /* ----------- RECIPES ------------------ */
 #recipe-card{ 
     border: yellow solid 4px;
