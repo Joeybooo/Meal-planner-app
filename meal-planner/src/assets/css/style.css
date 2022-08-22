@@ -24,5 +24,18 @@ nav ul li{
     height: 6vh;
 }
 /* ----------- MAIN ------------------ */
+#today-card{
+    margin: 3vh 1vw;
+    width: 40vw;   
+    /* height: 45vh; */
+}
+/* ----------- RECIPES ------------------ */
+#recipe-card{
+    margin-top: 3vh;
+    margin-left: 20vw;
+    width: 80vw;
+    height: 12vh;
+}
+
 
 
