@@ -2,8 +2,8 @@ import React from 'react';
 
 function Recipes(){
     return(
-        <div id='recipe-card'>
-            <div className='card col s5'>
+        <div className='card col s5' id='recipe-card'>
+                <div >
                 <div className='card-title center' id='card-title'>My Recipes</div>
                 <div className='card-content'>
                 <p className='meal-today'>

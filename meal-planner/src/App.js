@@ -2,6 +2,7 @@ import './App.css';
 import Nav from './components/Nav/nav';
 import Recipes from './components/Recipes/recipes';
 import Today from './components/Today/today.js';
+import Footer from './components/Footer/footer';
 function App() {
   return (
     <div>
@@ -11,7 +12,7 @@ function App() {
       <Today></Today>
       <Recipes></Recipes>
       </div>
-      footer
+      <Footer></Footer>
     </div>
   );
 }

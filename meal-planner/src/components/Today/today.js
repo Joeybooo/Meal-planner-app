@@ -2,9 +2,9 @@ import React from 'react';
 
 function Today(){
     return(
-        <div id='today-card'>
-
-                <div className='card col s5'>
+        
+        <div className='card col s5' id='today-card'>
+                    <div >
                     <div className='card-title center' id='card-title'>DATE</div>
                     <div className='card-content'>
                         <p className='meal-today'>
