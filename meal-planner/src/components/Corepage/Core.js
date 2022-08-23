@@ -5,6 +5,8 @@ import CreateRecipes from './CreateRecipe';
 import SearchRecipes from './SearchRecipe';
 import SignOut from './SignOut';
 import CoreNavigation from "./CoreNavigation";
+import Footer from "../Footer/footer"
+import Header from "../Header";
 
 function CorePage() {
     const [currentPage, handlePageChange] = useState("HomePage");
@@ -25,18 +27,7 @@ function CorePage() {
     };
     return (
         <div>
-          <nav className="navbar">
-            <div className="navbar-brand">
-              <a
-                className="navbar-item"
-                rel="noreferrer"
-                target="_blank"
-                href=""
-              >
-                <span className="content is-large">Timely Meals</span>
-              </a>
-            </div>
-          </nav>
+          <Header></Header>
           {/* Pass the state value and the setter as props to NavTabs */}
           <CoreNavigation
             currentPage={currentPage}
@@ -46,6 +37,7 @@ function CorePage() {
           <main>
             <div>{renderPage(currentPage)}</div>
           </main>
+          <Footer></Footer>
         </div>
       );
 }

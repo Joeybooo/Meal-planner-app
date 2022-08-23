@@ -2,6 +2,8 @@ import React, { useState} from "react";
 import About from './About';
 import LoginSignup from "./LoginSignup";
 import Navigation from "./Navigation";
+import Footer from "../Footer/footer";
+import Header from "../Header";
 
 function StartingPage() {
     const [currentPage, handlePageChange] = useState("About");
@@ -16,18 +18,7 @@ function StartingPage() {
     };
     return (
         <div>
-          <nav className="navbar">
-            <div className="navbar-brand">
-              <a
-                className="navbar-item"
-                rel="noreferrer"
-                target="_blank"
-                href=""
-              >
-                <span className="content is-large">Timely Meals</span>
-              </a>
-            </div>
-          </nav>
+          <Header></Header>
           {/* Pass the state value and the setter as props to NavTabs */}
           <Navigation
             currentPage={currentPage}
@@ -37,6 +28,7 @@ function StartingPage() {
           <main>
             <div>{renderPage(currentPage)}</div>
           </main>
+          <Footer></Footer>
         </div>
       );
 }

@@ -7,7 +7,6 @@ import fillerImage from "../../assets/cat-filler.jpg"
 function About() {
     return (
         <div>
-           <p className="content is-medium"> Timely Meals</p>
            <p className="content">
                 With the busy lives we live we struggle to find time to cook and find recipes. No longer will it be a struggle once you start using Timely Meals.
                 We aim to give users the best experience possible with easy to plann options.  

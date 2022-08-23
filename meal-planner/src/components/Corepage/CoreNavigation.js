@@ -1,7 +1,7 @@
 import React from "react";
 
 function CoreNavigation(props) {
-    const tabs = [ "Home", "Calander", "Create", "Search", "SignOut" ];
+    const tabs = ["Home", "Calander", "Create", "Search", "SignOut"];
     return (
         <div className="tabs is-centered">
             <ul className="nav nav-tabs">
