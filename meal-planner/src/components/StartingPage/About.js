@@ -1,4 +1,5 @@
 import React from "react";
+import fillerImage from "../../assets/cat-filler.jpg"
 
 function About() {
     return (
@@ -9,41 +10,40 @@ function About() {
                 We aim to give users the best experience possible with easy to plann options.  
            </p>
            <div>
-                
                 <article>
-                    <img src="" alt="Home Page"/>
                     <div>
                         <h3>Home Page</h3>
                         <p> This will be your home page. It will show you your daily recipes you choosen for the day. With its design you can be ready for any meal you have planned</p>
                     </div>
+                    <img className="about-img" src={fillerImage} alt="Home Page"/>
                 </article>
 
                 <article>
-                    <img src="" alt="Find Recipes"/>
                     <div>
                         <h3>Find Recipes</h3>
                         <p> With our easy to use search bar you find recipes created by other users or from our large collection of recipes. With a single click you can add that recipe to your calander</p>
                     </div>
+                    <img className="about-img" src={fillerImage} alt="Find Recipes"/>
                 </article>
 
                 <article>
-                    <img src="" alt="Calander"/>
                     <div>
                         <h3>Calander</h3>
                         <p> With your calander you will be able to see what days you have meals planned for. You can even click the day to see what you have planned. You can remove recipes from days of the calander</p>
                     </div>
+                    <img className="about-img" src={fillerImage} alt="Calander"/>
                 </article>
 
                 <article>
-                    <img src="" alt="Creat Recipes"/>
                     <div>
                         <h3>Create Your Own Recipe</h3>
                         <p> With the ability to create your own recipes you can save them for yourself or you can post them for other users to find.</p>
                     </div>
+                    <img className="about-img" src={fillerImage} alt="Creat Recipes"/>
                 </article>
            </div>
         </div>
-    )
+    );
 }
 
 export default About;
