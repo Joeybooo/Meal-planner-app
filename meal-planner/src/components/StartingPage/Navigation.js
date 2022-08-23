@@ -1,5 +1,4 @@
 import React from "react";
-import Nav from "../Nav/nav";
 
 function Navigation(props) {
     const tabs = [ "About", "Login/Sign-up"];

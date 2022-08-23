@@ -3,9 +3,12 @@ import Nav from './components/Nav/nav';
 import Recipes from './components/Recipes/recipes';
 import Today from './components/Today/today.js';
 import Footer from './components/Footer/footer';
+import Navigation from './components/StartingPage/Navigation';
+
 function App() {
   return (
     <div>
+      <Navigation></Navigation>
       <Nav></Nav>
       <div className='row'>
 
