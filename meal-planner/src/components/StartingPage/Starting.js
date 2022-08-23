@@ -24,7 +24,7 @@ function StartingPage() {
                 target="_blank"
                 href=""
               >
-                <span className="content is-large">Time Meals</span>
+                <span className="content is-large">Timely Meals</span>
               </a>
             </div>
           </nav>
