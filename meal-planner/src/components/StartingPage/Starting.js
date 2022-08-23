@@ -13,24 +13,27 @@ function StartingPage() {
             case "About":
                 return <About />;
             case "LogInSignUp":
-                return <LoginSignup />
+                return <LoginSignup />;
+
+            default: 
+              return <About />;
         }
     };
     return (
-        <div>
-          <Header></Header>
-          {/* Pass the state value and the setter as props to NavTabs */}
-          <Navigation
-            currentPage={currentPage}
-            handlePageChange={handlePageChange}
-          />
-          {/* Call the renderPage function passing in the currentPage */}
-          <main>
-            <div>{renderPage(currentPage)}</div>
-          </main>
-          <Footer></Footer>
-        </div>
-      );
+      <div>
+        <Header></Header>
+        {/* Pass the state value and the setter as props to NavTabs */}
+        <Navigation
+          currentPage={currentPage}
+          handlePageChange={handlePageChange}
+        />
+        {/* Call the renderPage function passing in the currentPage */}
+        <main>
+          <div>{renderPage(currentPage)}</div>
+        </main> 
+        <Footer></Footer>
+      </div>
+    );
 }
 
 export default StartingPage;

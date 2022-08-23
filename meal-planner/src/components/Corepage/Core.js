@@ -14,15 +14,18 @@ function CorePage() {
     const renderPage = () => {
         switch (currentPage) {
             case "Home" :
-                return <HomePage/>
+                return <HomePage />;
             case "Calander" :
-                return <Calander/>
+                return <Calander />;
             case "CreateRecipes" :
-                return <CreateRecipes/>
+                return <CreateRecipes />;
             case "SearchRecipes" :
-                return <SearchRecipes/>
+                return <SearchRecipes />;
             case "SignOut" :
-                return <SignOut/>
+                return <SignOut />;
+            
+            default:
+              return <HomePage />;
         }
     };
     return (
