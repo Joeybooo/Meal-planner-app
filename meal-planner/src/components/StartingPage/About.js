@@ -1,3 +1,6 @@
+// Needs images from actual app
+// Possibly add more styling 
+// in css you can clip images into a circle might look better
 import React from "react";
 import fillerImage from "../../assets/cat-filler.jpg"
 
