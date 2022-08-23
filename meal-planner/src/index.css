@@ -1,13 +1,109 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+
+}
+body{
+  background-color: aliceblue;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 12pt;
+  text-align: center;
+}
+/* ----------- HEADER / NAV ------------------ */
+nav{
+  height: 7vh;
+  margin-bottom: 3vh;
+}
+.title{
+  font-size: 18pt;
+}
+nav ul{
+  height: 7vh;
+} 
+nav ul li{
+  margin-left: 2vw;
+  height: 6vh;
+}
+/* ----------- MAIN ------------------ */
+#today-card{
+  border: yellow solid 4px;
+  margin-left: 4vw;
+  margin-top: 3vh;
+  width: 20vw;   
+  height: 45vh;
+}
+/* -- TODAY section ---------- */
+#today-title{
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#go-to-search{
+  margin-top: 2vh;
+
+}
+/* ----------- RECIPES ------------------ */
+#recipe-card{ 
+  border: yellow solid 4px;
+  margin-top: 3vh;
+  margin-left: 4vw;
+  width: 50vw;
+  height: 71.4vh;
+}
+/* ----------- FOOTER ------------------ */
+footer{
+  height: 7vh;
+  margin-top: 7vh;
+}
+
+/* Joey Css for react*/
+
+.navbar, .navbar-brand {
+  text-align: center;
+  display: block;
+  width: 100%;
+  background-color: aliceblue;
+  
+}
+
+div.navbar-brand {
+  padding-top: 2em;
+  margin-bottom: 2em;
+  
+}
+
+.navbar .navbar-brand > .navbar-item,
+.navbar .navbar-brand .navbar-link {
+  display: inline-block;
+}
+
+main {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 30em;
+  margin-right: 30em;
+}
+
+.my-pic {
+	clip-path: circle();
+  width: 250px;
+}
+
+.label {
+  text-align: left;
+}
+
+footer.footer {
+  background-color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 1024px) {
+    main {
+      margin-top: 2em;
+      margin-bottom: 2em;
+      margin-left: 2em;
+      margin-right: 2em;
+    }
 }
