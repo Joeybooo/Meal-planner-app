@@ -1,4 +1,4 @@
-<h1 align="center">Meal Planner App 👋</h1>
+<h1 align="center">Meal Planner App </h1>
   
 ![badge](https://img.shields.io/badge/license-Apache-brightgreen)<br />
 
@@ -7,33 +7,14 @@
 
 ## Table of Contents
 - [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
 - [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#questions)
-
-## Installation
-💾 No Installation needed
-
-## Usage
-💻 
-
-## License
-![badge](https://img.shields.io/badge/license-Apache-brightgreen)
-<br />
-This application is covered by the Apache license. 
 
 ## Contributing
-👪 Joey Byrd
+Joey Byrd
+Christina Brown
+Gual Dink Amlak
+Shaniya
 
-## Tests
-✏️ 
-
-## Questions
-✋ <br />
-<br />
 :octocat: Find me on GitHub: [Joeybooo](https://github.com/Joeybooo)<br />
 <br />
 ✉️ Email me with any questions: joeybyrd9999@gmail.com<br /><br />
