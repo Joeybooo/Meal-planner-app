@@ -2,8 +2,10 @@ import React from "react";
 
 function LogInSignUp() {
     return(
-        <div></div>
-    )
+        <div>
+            <p> The log-in/sign-up will go here</p>
+        </div>
+    );
 }
 
 export default LogInSignUp()
