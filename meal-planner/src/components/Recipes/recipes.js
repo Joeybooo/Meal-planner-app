@@ -2,17 +2,21 @@ import React from 'react';
 
 function Recipes(){
     return(
-        <div className='card col s5' id='recipe-card'>
+        <div className='card col s6' id='recipe-card'>
                 <div >
-                <div className='card-title center' id='card-title'>My Recipes</div>
+                <div className='card-title center' id='recipe-title'>My Recipes</div>
                 <div className='card-content'>
-                <p className='meal-today'>
+                <p id='recipe-planned'>
                 Today's planned meal
                 </p> 
-                <p className='meal-search'>
-                Meal ingredients
-                </p>
-                <placeholder>button or input to search</placeholder>
+                <placeholder id='recipe-display'>
+                Meal ingredients go here
+                </placeholder>
+                    <div className='card' id='search-card'>
+                        <p id='search-title'>Plan a recipe!</p>
+                        <input className='center' placeholder='search for a recipe' id='recipe-input'></input>
+                        <button className='btn' type='submit' id='recipe-btn'>make recipe</button>
+                    </div>
                 </div>
             </div>
         </div>

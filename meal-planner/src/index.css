@@ -26,28 +26,43 @@ body{
   width: 20vw;   
   height: 45vh;
 }
-/* -- TODAY section ---------- */
-#today-title{
-  margin-top: 2vh;
-  margin-bottom: 3vh;
 
-}
-
-#go-to-search{
-  margin-top: 2vh;
-
-}
 /* ----------- RECIPES ------------------ */
 #recipe-card{ 
   border: var(--tertiary-color) solid 4px;
-  margin-top: 3vh;
-  margin-left: 4vw;
-  width: 50vw;
+  background-color: aliceblue;
+  margin-top: 5vh;
+  margin-left: 24%;
+  width: 55vw;
   height: 71.4vh;
 }
+
+#recipe-title{
+  margin-top: 3vh;
+  font-size: 18pt;
+  font-weight: bold;
+}
+#recipe-planned{
+  /* may turn into placeholder */
+}
+#search-card{
+  border: var(--tertiary-color) solid 4px;
+  background-color: rgb(230, 228, 226);
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 35vh;
+}
+#recipe-input{
+
+}
+#recipe-btn{
+
+}
 /* ----------- FOOTER ------------------ */
-footer{
-  height: 7vh;
+.page-footer{
+  background-color: var(--primary-color);  height: 7vh;
   margin-top: 7vh;
 }
 
