@@ -6,7 +6,7 @@ import SignOut from './SignOut';
 import Footer from "../Footer/footer"
 import Header from "../Header";
 import Tabs from "./Tabs";
-import LoginSignup from '../StartingPage/LoginSignup';
+
 
 const data = [
   {
