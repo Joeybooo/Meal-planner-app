@@ -1,11 +1,8 @@
 import React from "react";
 
+// code in return will be replaced with actual login page when availiable
 function LogInSignUp() {
-    return(
-        <div>
-            <p> The log-in/sign-up will go here</p>
-        </div>
-    );
+    
 }
 
 export default LogInSignUp()

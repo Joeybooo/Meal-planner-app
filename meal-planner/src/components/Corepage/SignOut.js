@@ -1,8 +1,22 @@
-import React from 'react';
+import React from "react";
 
+// code in return will be replaced with actual login page when availiable
 function SignOut() {
-    return(
-        <div></div>
+    return (
+        class LoggingButton extends React.Component {
+            handleClick() {
+              console.log("Click")
+            }
+          
+            render() {
+              // This syntax ensures `this` is bound within handleClick
+              return (
+                <button onClick={() => this.handleClick()}>
+                  Click me
+                </button>
+              );
+            }
+          }
     );
 }
 
