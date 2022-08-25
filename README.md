@@ -12,7 +12,7 @@ Timely Meals, is an easy to use app that will allow the user to plan meals and f
 ## Contributing
 Joey Byrd
 Christina Brown
-Gual Dink Amlak
+Nardos Abraham
 Shaniya
 
 :octocat: Find me on GitHub: [Joeybooo](https://github.com/Joeybooo)<br />
