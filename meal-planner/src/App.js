@@ -8,6 +8,7 @@ function App() {
       <Nav></Nav>
       <div className='row'>
       <Recipes></Recipes>
+
       </div>
       <Footer></Footer>
     </div>
