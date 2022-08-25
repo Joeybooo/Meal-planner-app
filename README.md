@@ -1,6 +1,7 @@
 <h1 align="center">Meal Planner App </h1>
   
-
+Link to deploy (current unavailable)
+https://safe-crag-05983.herokuapp.com/
 
 ## Description
 Timely Meals, is an easy way to use app that will allow the user to plan meals and find recipes all in a single place. Users will be able to search from popular recipes from a 3rd party api. The user will also be able create recipes and be able to post them for others to see or keep them for themselves for later
