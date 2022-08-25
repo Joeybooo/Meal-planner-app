@@ -19,9 +19,9 @@ Timely Meals, is an easy to use app that will allow the user to plan meals and f
 
 ## Installation
 
-==npm i==
- 
-==npm start==
+`npm i`
+
+`npm start`
 
 
 
