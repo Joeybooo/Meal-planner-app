@@ -72,31 +72,7 @@ function Registration() {
                   placeholder="Enter password"
                   onChange={(event) => setPassword(event.target.value)}
                 />
-              </div>
-
-              {/* <div className="form-group">
-                <label>Phone No.</label>
-                <input
-                  type="Phone"
-                  className="form-control"
-                  placeholder="Enter contact no"
-                  onChange={(event) => setPhone(event.target.value)}
-                />
-              </div>
-
-              <div className="form-group">
-                <label>Choose your Profession</label>
-                <Form.Control
-                  as="select"
-                  onChange={(event) => setProfession(event.target.value)}
-                >
-                  {/* <option>Select</option>
-                  <option>Artist</option>
-                  <option>Photographer</option>
-                  <option>Team Player</option>
-                  <option>Full Stack</option> */}
-                {/* </Form.Control>
-              </div> */} */}
+              </div>}
 
               <button type="submit" className="btn btn-dark btn-lg btn-block">
                 Register
