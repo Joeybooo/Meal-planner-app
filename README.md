@@ -15,7 +15,7 @@ Timely Meals, is an easy way to use app that will allow the user to plan meals a
 * Joey Byrd
 * Christina Brown
 * Nardos Abraham
-* Shaniya
+* Shaniya Mann
 * Osman Ali
 
 ## Installation
